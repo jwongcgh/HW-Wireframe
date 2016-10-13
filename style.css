@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  }
+
+* {
+  font-size: 18px;
+  }
+
+body {
+  background-color: #777;
+  width: 960px;
+  font-family: Arial, Helvetica Neue, Helvetica, Sans-Serif;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+header {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  }
+
+nav {
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0px 20px 0px;
+}
+
+#title, #navigation {
+  color: #777;
+  }
+
+.mainContent {
+  width: 455px;
+  height: 235px;
+  float:left;
+  background-color: #ebebeb;
+  color:#777;
+  text-align: center;
+  margin: 0px 0px 25px 0px;
+  padding: 10px;
+  }
+
+aside {
+  width: 495px;
+  height: 235px;
+  float: left;
+  background-color: #ebebeb;
+  color: #777;
+  margin: 0px 0px 25px 10px;
+  padding: 5px;
+  /*  text-align: center      This will only center text horizontally */
+  display: flex;			/* Needed to use justify-content and align-items below */
+  justify-content: center;  /* Allows horizontal alignment to be centered */
+  align-items: center;      /* Vertical alignment to center */
+  }
+
+.aHeader {
+  margin: 15px 5px 0px 5px;
+  background-color: #ebebeb;
+  color: #777;
+  padding: 10px;
+  }
+
+h1, h2, h3 {
+  display: inline;
+  }
+
+.pAdd {
+  background-color: #ebebeb;
+  color: #777;
+  padding: 10px;
+  margin: 10px 5px 10px 5px;
+  }
+
+article {
+  background-color: #777;
+  color: white;
+  text-align:center;
+  padding: 15px 10px 5px 10px;
+  }
+
+footer {
+  clear: both;
+  background-color: #ebebeb;
+  color: #777;
+  text-align: center;
+  padding: 10px;
+  }
+
